@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header"></header>
+		<main class="main">
+			<div class="request">
+				<div class="request__container">
+					<form action="#" class="request__form form-request">
+						<h3 class="form-request__title">
+							Make an appointment
+						</h3>
+						<div class="form-request__about">
+							<div class="form-request__block-input">
+								<input placeholder="Name" autocomplete="off" type="text" name="name" value="" class="form-request__input">
+							</div>
+							<div class="form-request__block-input">
+								<input placeholder="Email" autocomplete="off" type="email" name="email" value="" class="form-request__input">
+							</div>
+							<div class="form-request__block-input">
+								<input placeholder="Phone Number" autocomplete="off" type="tel" name="phone" value="" class="form-request__input">
+							</div>
+							<div class="form-request__block-input">
+								<input placeholder="Select Service" autocomplete="off" type="text" name="Service" value="" class="form-request__input">
+							</div>
+						</div>
+						<div class="form-request__block-text">
+							<textarea placeholder="Tell us about your puppers include his/her name" class="form-request__text" name="text"></textarea>
+						</div>
+						<button class="form-request__button" type="submit">Make an Appointment</button>
+					</form>
+				</div>
+			</div>
+			<div class="shop">
+				<div class="shop__container">
+					<form action="" class="shop__form form-shop">
+						<div class="form-shop__header">
+							<h3 class="form-shop__title">Summary</h3>
+							<h4 class="form-shop__subtitle">Estimate Shipping and Tax</h4>
+							<p class="form-shop__text">Enter your destination to get a shipping estimate.</p>
+						</div>
+						<div class="form-shop__input-block">
+							<label for="select" class="form-shop__label">Country</label>
+							<select class="form-shop__select" name="select">
+								<option value="1">Russia</option>
+								<option value="2">Australia</option>
+								<option value="3">USA</option>
+								<option value="4">Germany</option>
+							</select>
+						</div>
+						<div class="form-shop__input-block">
+							<label for="state" class="form-shop__label">State/Province</label>
+							<input autocomplete="off" name="state" value="" type="text" class="form-shop__input">
+						</div>
+						<div class="form-shop__input-block">
+							<label for="code" class="form-shop__label">Zip/Postal Code</label>
+							<input autocomplete="off" name="code" value="" type="text" class="form-shop__input">
+						</div>
+						<div class="form-shop__radio-input-block">
+							<label for="select" class="form-shop__label">
+								Standard Rate
+							</label>
+							<div class="form-shop__radio-block">
+								<input autocomplete="off" name="gender" value="" type="radio" class="form-shop__input-radio">
+								<p class="form-shop__radio-text">
+									Price may vary depending on the item/destination. Shop Staff will contact you. $21.00
+								</p>
+							</div>
+							<label for="radio" class="form-shop__label">
+								Pickup from store
+							</label>
+							<div class="form-shop__radio-block">
+								<input autocomplete="off" name="gender" value="" type="radio" class="form-shop__input-radio">
+								<p class="form-shop__radio-text">
+									1234 Street Adress City Address, 1234 $0.00
+								</p>
+							</div>
+						</div>
+
+					</form>
+				</div>
+
+			</div>
+		</main>
+		<footer class="footer"></footer>
+	</div>
+</body>
+
+</html>
